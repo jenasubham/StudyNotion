@@ -4,7 +4,7 @@ import Template from '../components/Template'
 
 const Login = ({setIsLoggedIn}) => {
   return (
-    <div className='bg-richblack-900'>
+    <div className='bg-richblack-900 overflow-x-hidden'>
       <Template
         title = "Welcome Back"
         desc1 = "Build skills for today, tomorrow, and beyond."
